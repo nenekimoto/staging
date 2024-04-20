@@ -1,0 +1,95 @@
+@charset "UTF-8"
+html{
+    font-size:100px;
+}
+body{
+    color:black;
+    margin: auto;
+    max-width: 1100px;
+}
+
+header{
+    width: 1166px;
+    background-color: #202f55;
+}
+
+.headerlogo{
+    width:100px;
+    margin: 20px 40px;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1166px;
+}
+
+.leftbox{
+    width:320px;
+    height: 550px;
+    background-color: #00734d;
+    padding: 20px;
+}
+
+.oomidashi{
+    font-size: 18px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+small{
+    font-size: 10px;
+}
+
+b{
+    font-size: 25px;
+    color: #f00;
+}
+
+.rightbox{
+    width: 766px;
+    height: 550px;
+    background-color: #8c2727;
+    padding: 20px;
+}
+h1{
+    font-size: 20px;
+    color: #00f;
+}
+
+.parent{
+    display: flex;
+}
+
+.child{
+    color: #fff;
+    border: solid 1px #d98d30;
+    text-align: center;
+    line-height: 50px;
+    width: 150px;
+    height: 40px;
+    background-color: #333;
+    margin:10px ;
+}
+
+h4{
+    color: #999;
+    font-size: 18px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1086px;
+    height: 90px;
+    background-color: #d98d30;
+    padding:20px 40px ;
+}
+
+h2{
+    color:#0f0;
+}
+
+h3{
+    font-size:18px;
+}
